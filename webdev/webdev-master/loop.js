@@ -8,11 +8,4 @@
     //console.log(i)
 //}
 
-//for l
-animal=["Aligator",
-    "Baboon",
-    "Cat"
-]
-for(let i=animal.length + 1; i >= 0 ; i --){
-    console.log(animal[1])
-}
+

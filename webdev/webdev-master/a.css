@@ -82,3 +82,6 @@ color: azure;
     margin-right: 400px;
     margin-top: 50px;
 }
+#abcdef{
+    display: flex;
+}
