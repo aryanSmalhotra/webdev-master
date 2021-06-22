@@ -1,0 +1,122 @@
+body{
+    width: 100%px;
+    height: 800px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzQ6Dxxa94HhbaDJkza7iXPGnUZtQPdofzCw&usqp=CAU");
+    
+
+}
+h1,h2{
+    color: #2a9d8f;
+}
+button{
+    background: none;
+    color: #ff3c00;
+    border: 2px solid;
+    font-family: 'Roboto Mono', sans-serif;
+    transition: all 0.3s;
+
+}
+#sighup{
+    background: none;
+    color:#ff3c00;
+    border: 2px solid;
+    font-family: 'Roboto Mono', sans-serif;
+    transition: all 0.3s;
+}
+button:hover{
+    border-color: #b4e20c;
+    color:  white;
+    box-shadow: 0 0.7em 0.5em -0.4em #b4e20c;
+    transform: translateY(-0.25em)
+
+}
+#sighup:hover{
+    border-color: #b4e20c;
+    color: azure;
+    box-shadow: 0 0.7em 0.5em -0.4em #b4e20c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+.post button:hover{
+    
+    background-color: #02c39a;
+    
+}
+h2:first-letter{
+    font-size: 50px;
+}
+#username:hover{
+    border-width: 1.5px ;
+    border-color:black;
+    border-style: solid;
+    border-radius: 30px;
+    border-color:#b4e20c;
+    box-shadow: 0 0.7em 0.5em -0.4em #b4e20c;
+    transform: translateY(-0.25em)
+}
+#username{
+    transition: all 0.3s;
+}
+#email:hover{
+    
+        border-width: 1.5px ;
+        border-color:black;
+        border-style: solid;
+        border-radius: 30px;
+        border-color:#b4e20c;
+        box-shadow: 0 0.7em 0.5em -0.4em #b4e20c;
+        transform: translateY(-0.25em)
+}
+#email{
+    transition: all 0.3s;
+}
+#Password:hover{
+    border-width: 1.5px ;
+    border-color:black;
+    border-style: solid;
+    border-radius: 30px;
+    border-color:#b4e20c;
+    box-shadow: 0 0.7em 0.5em -0.4em #b4e20c;
+    transform: translateY(-0.25em)
+    
+}
+#Password{
+    transition: all 0.3s;
+}
+#ConfirmPassword:hover{
+    border-width: 1.5px ;
+    border-style: solid;
+    border-radius: 30px;
+    border-color:#b4e20c;
+    box-shadow: 0 0.7em 0.5em -0.4em #b4e20c;
+    transform: translateY(-0.25em)
+    
+}
+#ConfirmPassword{
+    transition: all 0.3s;
+}
+div{
+    padding-left: 0px 20px;
+}
+#aaaa{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50px;
+    flex-grow: 1;
+
+}
+#the{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+

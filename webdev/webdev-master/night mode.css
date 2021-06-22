@@ -1,0 +1,34 @@
+#thee{
+    background-color: orangered;
+    text-align: center;
+
+}
+#host{
+    color: aqua;
+    align-items: center;
+    border-right: 2px solid #e1f1ff;
+    
+
+
+
+
+}
+#users{
+    color: aqua;
+    align-items: center;
+    border-right: 2px solid #e1f1ff;
+
+}
+#langu{
+    color: aqua;
+    align-items: centre;
+    border-right: 2px solid #e1f1ff;
+
+    
+}
+#table{
+    margin-left: 400px;
+    font-size: 4rem;
+
+
+}
