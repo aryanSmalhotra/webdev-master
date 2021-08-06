@@ -20,6 +20,7 @@ p1button.addEventListener('click', function(e){
             p2dis.classList.add('loser')
             p1button.disabled = true
             p2button.disabled = true
+            duece();
         }
 
     }
@@ -61,3 +62,9 @@ function reset(){
     p1button.disabled = false
     p2button.disabled = false
     };
+    const duece = (() => {
+        if(wScore-1 == p1score){
+            wScore+2 == wScore
+
+        }
+    })
